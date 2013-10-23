@@ -17,6 +17,8 @@ This is written because I tried out ZFS on Linux on a server which I also had
 virt-sysprep on, this caused some problems which I didn't want. So I began
 pondering on how to do a simple clean.
 
+USE WITH CAUTION!
+
 ## Goals
 
 In accordance to the top statement, the project will try to be as easy on
@@ -36,7 +38,7 @@ The following should do it (requires Go):
 
 Simplest example:
 
-    ./bin/carpenter -hostname=vm.example.com -template=/tmp/template.qcow2
+    ./bin/carpenter -hostname=vm.example.com -image=/tmp/template.qcow2
 
 ## Test
 
