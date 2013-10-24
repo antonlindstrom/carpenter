@@ -44,7 +44,7 @@ Simplest example:
 
     make test
 
-Unfortunately the tests are very uncomplete at the moment.
+Unfortunately the tests are very incomplete at the moment.
 
 ## Licence
 
