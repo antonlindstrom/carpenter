@@ -44,6 +44,8 @@ Simplest example:
 
     make test
 
+Unfortunately the tests are very uncomplete at the moment.
+
 ## Licence
 
 See [LICENSE](LICENSE) file.
