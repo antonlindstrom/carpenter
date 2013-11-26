@@ -34,6 +34,11 @@ The following should do it (requires Go):
 
     make
 
+Requirements:
+
+  * `qemu-nbd`
+  * `modprobe nbd max_part=63`
+
 ## Example usage
 
 Simplest example:
