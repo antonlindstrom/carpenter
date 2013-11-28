@@ -20,7 +20,7 @@ func (i *Image) Mount() error {
 	err = cmd.Run("mount", i.Device+i.Partition, i.Mountpoint)
 
 	if err != nil {
-		log.Printf("Error during mount, let's not care..\n")
+		log.Printf("Error, could not mount %s (mount).\n", i.Device+i.Partition)
 		return err
 	}
 
